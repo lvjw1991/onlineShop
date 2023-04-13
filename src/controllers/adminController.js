@@ -62,7 +62,7 @@ exports.addPost = (req,res)=>{
 				res.end(err);
 				return;
 			}
-			res.end('<script>alert("商品添加成功");window.location="/admin/list"</script>');
+			res.end('<script>alert("Added Successfully.");window.location="/admin/list"</script>');
 		});
 		
 	});
@@ -105,7 +105,7 @@ exports.editPost = (req,res)=>{
 					res.end(err);
 					return;
 				}
-				res.end('<script>alert("商品修改成功");window.location="/admin/list"</script>');
+				res.end('<script>alert("Edited Successfully.");window.location="/admin/list"</script>');
 			});
 		}else{
 			adminModel.update({_id:fields.id},{
@@ -119,7 +119,7 @@ exports.editPost = (req,res)=>{
 					res.end(err);
 					return;
 				}
-				res.end('<script>alert("商品修改成功");window.location="/admin/list"</script>');
+				res.end('<script>alert("Edited Successfully.");window.location="/admin/list"</script>');
 			});
 		}
 		

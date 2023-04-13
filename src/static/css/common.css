@@ -12,8 +12,8 @@ body{
     font-size: 0.5rem;
     font-family: "microsoft YaHei","sans-serif";/*使用移动端默认的字体*/
     color: #333;
-    max-width: 640px;
-    min-width: 320px;
+    /*max-width: 640px;
+    min-width: 320px;*/
     background: #F7F7F7;
 }
 a{

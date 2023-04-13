@@ -23,12 +23,12 @@ exports.loginPost = (req,res)=>{
 	let where = {name:username,password:password};
 	userModel.find(where,(err,data)=>{
 		if(data.length == 0){
-			res.end('<script>alert("登录失败");window.location=window.location</script>');
+			res.end('<script>alert("login fail");window.location=window.location</script>');
 		}else{
 			//记录登录用户的用户名和用户身份
 			req.session.name = username;
 			req.session.type = data[0].type;
-			res.end('<script>alert("登录成功");window.location="/"</script>');
+			res.end('<script>alert("login success");window.location="/"</script>');
 		}
 	})
 }
