@@ -136,6 +136,6 @@ exports.delGet = (req,res)=>{
 			res.end(err);
 			return;
 		}
-		res.end('<script>alert("商品删除成功");window.location="/admin/list"</script>');
+		res.end('<script>alert("Deleted successfully.");window.location="/admin/list"</script>');
 	})
 }
