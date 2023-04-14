@@ -13,7 +13,7 @@ const mongoose = require('mongoose');
 let app = express();
 
 //连接数据库
-mongoose.connect('mongodb://127.0.0.1/cakeShop');
+mongoose.connect('mongodb://127.0.0.1/onlineShop');
 require('./models/adminModel.js');
 require('./models/accountModel.js');
 require('./models/orderModel.js');

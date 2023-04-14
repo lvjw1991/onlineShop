@@ -115,7 +115,7 @@
 			var priceArr = $('.checkBtn[checked="true"]').siblings('.good-info').children('.price');
 			for(var i=0;i<priceArr.length;i++){
 
-				result += parseInt(priceArr[i].innerText.slice(1));
+				result += parseInt(priceArr[i].innerText);
 				console.log();
 			}
 			$('.all-price').text('￥'+result);

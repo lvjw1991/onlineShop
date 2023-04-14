@@ -16,9 +16,9 @@
 				<a href="#">电商网站</a>
 			</div>
 			<div class="header-toolbar fr">
-				<a href="#" class="header-toolbar-btn searchBtn">
+				<!--<a href="#" class="header-toolbar-btn searchBtn">
 					<i class="ico ico-search"></i>
-				</a>
+				</a>-->
 				<a href="/account/login" class="header-toolbar-btn userPageBtn">
 					<i class="ico ico-user"></i>
 				</a>
@@ -107,7 +107,7 @@
 <script type="text/javascript">
 	window.onload = function(){
 		var sname = '{{sName}}';
-		if(sname && != '1'){
+		if(sname!= '1'){
 			var userBtn = document.querySelector('.userPageBtn');
 			userBtn.innerHTML = '<i class="userInfo">'+sname+'</i>';
 		}

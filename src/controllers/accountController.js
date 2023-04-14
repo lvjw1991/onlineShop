@@ -59,6 +59,6 @@ exports.registerPost = (req,res)=>{
 			res.end(err);
 			return;
 		}
-		res.end('<script>alert("注册成功");window.location="/account/login"</script>');
+		res.end('<script>alert("register success");window.location="/account/login"</script>');
 	})
 }
