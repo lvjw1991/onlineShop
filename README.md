@@ -1,5 +1,5 @@
 # fork from https://github.com/Richar-Dada/cakeShop
-# 电子商城
+# 电商网站
 nodejs + express + mongodb 完成的一个小型电商网站
 
 #安装部署
