@@ -8,7 +8,11 @@ nodejs + express + mongodb 完成的一个小型电商网站
 3. $npm install 安装依赖包
 4. npm run dev 在开发环境中运行  
 5. 前台网站 http://localhost:7777 
+![image](https://user-images.githubusercontent.com/29093438/232134330-cfcdda1a-f2cf-4ba2-b961-f559e15741be.png)
+
 6. 后台管理 http://localhost:7777/admin/list
+![image](https://user-images.githubusercontent.com/29093438/232134373-a05c0d35-5073-4cd0-9647-0f6022e84c1d.png)
+
 
 #目录结构
 <pre>
